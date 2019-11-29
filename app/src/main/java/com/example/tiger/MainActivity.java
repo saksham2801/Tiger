@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(MainActivity.this, Login.class);
+                Intent i=new Intent(MainActivity.this, LandingPage.class);
                 startActivity(i);
                 finish();
             }
